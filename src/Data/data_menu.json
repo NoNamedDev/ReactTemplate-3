@@ -1,0 +1,166 @@
+{
+    "content" : [
+        {
+            "category" : "Bagels",
+            "items" : [
+                {
+                    "name" : "The b-New York",
+                    "price" : 8.95,
+                    "valute" : "€",
+                    "category" : "Bagels",
+                    "ingredients" : "Double steak haché, cheddar, oignons caramélisés, tomates, cornichons et sauce secrète."
+                },
+                {
+                    "name" : "The b-London",
+                    "price" : 8.60,
+                    "valute" : "€",
+                    "category" : "Bagels",
+                    "ingredients" : "Omelette, cheddar, bacon et sauce secrète."
+                },
+                {
+                    "name" : "The b-Milano",
+                    "price" : 8.95,
+                    "valute" : "€",
+                    "category" : "Bagels",
+                    "ingredients" : "Filet de poulet croquant, mozzarella fondue, basilic et sauce secrète."
+                },
+                {
+                    "name" : "The b-Roma",
+                    "price" : 8.95,
+                    "valute" : "€",
+                    "category" : "Bagels",
+                    "ingredients" : "Tomates séchées, mozzarella, roquette, parmesan, épices italiennes."
+                },
+                {
+                    "name" : "The b-Oslo",
+                    "price" : 9.30,
+                    "valute" : "€",
+                    "category" : "Bagels",
+                    "ingredients" : "Saumon fumé, avocat, oignons rouges, fromage frais."
+                }
+            ]
+        },
+        {
+            "category" : "Accompagnements",
+            "items" : [
+                {
+                    "name" : "Frites maison",
+                    "price" : 3.50,
+                    "valute" : "€",
+                    "category" : "Accompagnements",
+                    "ingredients" : "Sauce au choix : sans sauce, Ketchup, Mayonnaise, Barbecue, Dallas [...]"
+                },
+                {
+                    "name" : "Bananes Plantain",
+                    "price" : 3.00,
+                    "valute" : "€",
+                    "category" : "Accompagnements",
+                    "ingredients" : "Bananes"
+                },
+                {
+                    "name" : "Chicken tenders (3 pièces)",
+                    "price" : 4.00,
+                    "valute" : "€",
+                    "category" : "Accompagnements",
+                    "ingredients" : "Sauce au choix : sans sauce, Ketchup, Mayonnaise, Barbecue, Dallas [...]"
+                },
+                {
+                    "name" : "Hot chicken tenders (3 pièces)",
+                    "price" : 4.00,
+                    "valute" : "€",
+                    "category" : "Accompagnements",
+                    "ingredients" : "Sauce au choix : sans sauce, Ketchup, Mayonnaise, Barbecue, Dallas [...]"
+                }
+            ]
+        },
+        {
+            "category" : "Desserts",
+            "items" : [
+                {
+                    "name" : "Cookie XL triple chocolat",
+                    "price" : 3.00,
+                    "valute" : "€",
+                    "category" : "Desserts",
+                    "ingredients" : ""
+                },
+                {
+                    "name" : "Cookie XL chocolat blanc et framboise",
+                    "price" : 3.00,
+                    "valute" : "€",
+                    "category" : "Desserts",
+                    "ingredients" : ""
+                },
+                {
+                    "name" : "Brownie avec pépites de chocolat",
+                    "price" : 2.50,
+                    "valute" : "€",
+                    "category" : "Desserts",
+                    "ingredients" : ""
+                }
+            ]
+        },
+        {
+            "category" : "Boissons",
+            "items" : [
+                {
+                    "name" : "Chaudfontaine eau plate 50cl",
+                    "price" : 2.50,
+                    "valute" : "€",
+                    "category" : "Boissons",
+                    "ingredients" : ""
+                }
+                ,
+                {
+                    "name" : "Chaudfontainer eau pétillante 50cl",
+                    "price" : 2.50,
+                    "valute" : "€",
+                    "category" : "Boissons",
+                    "ingredients" : ""
+                },
+                {
+                    "name" : "Coca-Cola 33cl",
+                    "price" : 2.50,
+                    "valute" : "€",
+                    "category" : "Boissons",
+                    "ingredients" : ""
+                },
+                {
+                    "name" : "Coca-Cola zéro 33cl",
+                    "price" : 2.50,
+                    "valute" : "€",
+                    "category" : "Boissons",
+                    "ingredients" : ""
+                },
+                {
+                    "name" : "Lipton Ice Tea pêche 33cl",
+                    "price" : 2.50,
+                    "valute" : "€",
+                    "category" : "Boissons",
+                    "ingredients" : ""
+                },
+                {
+                    "name" : "Lipton Ice Tea pétillant 33cl",
+                    "price" : 2.50,
+                    "valute" : "€",
+                    "category" : "Boissons",
+                    "ingredients" : ""
+                },
+                {
+                    "name" : "Fanta orange 33cl",
+                    "price" : 2.50,
+                    "valute" : "€",
+                    "category" : "Boissons",
+                    "ingredients" : ""
+                },
+                {
+                    "name" : "Fanta citron 33cl",
+                    "price" : 2.50,
+                    "valute" : "€",
+                    "category" : "Boissons",
+                    "ingredients" : ""
+                }
+            ]
+        }
+    ]
+    
+}

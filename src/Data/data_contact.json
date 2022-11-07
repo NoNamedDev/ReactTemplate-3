@@ -1,0 +1,17 @@
+{
+    
+    "phone_number" : "0471 34 22 12",
+    "email" : "bagelcity.contact@gmail.com",
+    "social_media" : {
+        "facebook" : "https://www.facebook.com/profile.php?id=100086108707154",
+        "instagram" : "",
+        "tweeter" : ""
+    },
+    "location" : {
+        "adress" : "Rue de Nimy, 87, Mons, Belgium",
+        "lat" : "",
+        "lng" : ""
+    }
+}
+
+

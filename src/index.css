@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@layer components{
+  .bc-text-0 {
+    @apply text-[#181715]
+  }
+  .bc-text-1 {
+    @apply text-[#fdf0df]
+  }
+  .bc-text-2 {
+    @apply text-[#ffba5b]
+  }
+  .bc-text-3 {
+    @apply text-[#ffbb5a]
+  }
+
+  
+  .bc-bg-0{
+    @apply bg-[#181715]
+  }
+  .bc-bg-0-75{
+    @apply bg-[#181715cc]
+  }
+  .bc-bg-1{
+    @apply bg-[#fdf0df]
+  }
+  .bc-bg-2{
+    @apply bg-[#ffba5b]
+  }
+  .bc-bg-3{
+    @apply bg-[#ffbb5a]
+  }
+  
+  .bc-custom-herotext{
+    text-shadow: 3px 3px 2px #FFBB5A;
+    color: #181715;
+  }
+  
+  .bc-custom-contacttext{
+    text-shadow: 3px 3px 2px #7c725d;
+    color: #FFBB5A;
+  }
+
+  .bc-custom-boxshadow {
+    -webkit-box-shadow: 5px 5px 15px 5px #FFFFFF, -9px 5px 15px 5px #FFFFFF, -7px -5px 15px 5px #8CFFFF, 12px -5px 15px 5px #80FFFF, 12px 10px 15px 7px #E4FFFF, -10px 10px 15px 7px #FFFFFF, -10px -7px 27px 1px #8EFFFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 15px 5px #FFFFFF, -9px 5px 15px 5px #FFFFFF, -7px -5px 15px 5px #8CFFFF, 12px -5px 15px 5px #80FFFF, 12px 10px 15px 7px #E4FFFF, -10px 10px 15px 7px #FFFFFF, -10px -7px 27px 1px #8EFFFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    }
+
+
+    
+    .map-h2 {
+      text-transform: uppercase;
+      font-size: 1rem;
+      padding: 20px;
+      padding-left: 10px;
+      text-align: center;
+    }
+    
+    .google-map {
+      width: 100%;
+      height: 60vh;
+    }
+    
+    .pin {
+      display: flex;
+      align-items: center;
+      width: 180px;
+      color: var(--main-blue);
+    }
+    
+    .pin-icon {
+      font-size: 4rem;
+    }
+    
+    .pin-text {
+      font-size: 1.3em;
+    }
+    
+    @media screen and (min-width: 799px) {
+      .google-map {
+        height: 80vh;
+      }
+    
+      .map-h2 {
+        font-size: 1.3rem;
+        font-weight: 400;
+      }
+    
+      .pin {
+        width: 15vw;
+      }
+    
+      .pin-icon {
+        font-size: 10vw;
+      }
+    }
+}
